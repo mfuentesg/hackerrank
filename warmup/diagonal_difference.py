@@ -9,8 +9,8 @@ for i, e in enumerate(a):
     for j, f in enumerate(a):
         if j + i == len(a) - 1:
             rd += a[i][j]
-            
+
         if j == i:
             ld += a[i][j]
-            
+
 print('{}'.format(abs(ld - rd)))

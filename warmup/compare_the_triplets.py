@@ -10,5 +10,5 @@ for i, _ in enumerate(alice):
         a += 1
     elif alice[i] < bob[i]:
         b += 1
-        
+
 print('{} {}'.format(a, b))
