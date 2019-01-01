@@ -2,7 +2,7 @@
 
 n = int(input().strip())
 arr = list(map(int, input().strip().split(' ')))
-nbs = { 'p': 0, 'n': 0, 'z': 0 }
+nbs = {'p': 0, 'n': 0, 'z': 0}
 
 for n in arr:
     if n > 0:

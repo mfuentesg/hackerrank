@@ -15,4 +15,5 @@ def solve(s):
     else:
         return solve(''.join(['' if i in f else s[i] for i in range(len(s))]))
 
+
 print(solve(input().strip()))

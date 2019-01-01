@@ -11,12 +11,14 @@ def encrypt_char(c, k):
 
     return chr(ci + k)
 
-def caesar_cipher(text, key, decrypt = False):
+
+def caesar_cipher(text, key):
     if key == 0 or key % 26 == 0:
         return text
 
     K = key % 26
     return ''.join([encrypt_char(x, K) if x.isalpha() else x for x in text])
+
 
 _ = int(input().strip())
 s = input().strip()

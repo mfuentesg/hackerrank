@@ -1,5 +1,6 @@
 #!/bin/python3
 
+
 def convert(t, f):
     h, m, s = list(map(int, t.split(':')))
 
@@ -15,6 +16,7 @@ def convert(t, f):
         h = 0
 
     return '{}:{}:{}'.format(to_str(h), to_str(m), to_str(s))
+
 
 i = input().strip()
 t = i[0:-2]

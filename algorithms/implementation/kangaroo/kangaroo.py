@@ -1,7 +1,5 @@
 #!/bin/python3
 
-import sys
-
 x1, v1, x2, v2 = list(map(int, input().strip().split(' ')))
 m = abs(x1 - x2) // abs(v1 - v2) if abs(v1 - v2) > 0 else 1
 

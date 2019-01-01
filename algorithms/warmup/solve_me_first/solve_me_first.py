@@ -1,6 +1,8 @@
 #!/bin/python3
 
-def solveMeFirst(a, b):
+
+def solve_me_first(a, b):
     return a + b
 
-print(solveMeFirst(int(input().strip()), int(input().strip())))
+
+print(solve_me_first(int(input().strip()), int(input().strip())))

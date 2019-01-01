@@ -15,5 +15,6 @@ def solve(b):
 
     return min(l)
 
+
 _ = int(input().strip())
 print(solve(list(map(int, input().strip().split(' ')))))
